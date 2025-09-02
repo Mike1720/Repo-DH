@@ -1,0 +1,41 @@
+------------------------------------------------
+Problematica:
+    La empresa mexicana SuperTech está perdiendo dinero porque en las transacciones de moneda internacional hay
+    muchos errores del personal al realizar cálculos a mano para pasar de Euro a Peso Mexicano y Dólar a Peso Mexicano
+    en los pagos de importaciones.
+------------------------------------------------
+
+------------------------------------------------
+Algoritmo:
+    1.- Definir el valor actual del Euro y Dólar con respecto al Peso Mexicano
+    3.- Solicitar al usuario el tipo de conversión de (EUR-MXN o USD-MXN)
+    2.- Solicitar el monto a convertir
+    3.- Realizar la conversión utilizando el tipo de cambio correspondiente
+    4.- Mostrar el resultado de la conversión al usuario
+------------------------------------------------
+
+------------------------------------------------
+Pseudocódigo:
+Inicio
+    # Definir el valor actual del Euro y Dólar con respecto al Peso Mexicano
+    Definir EUR_MXN = 23.70
+    Definir USD_MXN = 20.75
+
+    # Solicitar al usuario el tipo de conversión de (EUR-MXN o USD-MXN)
+    Mostrar mensaje: "Ingrese la moneda origen para la conversión (EUR/USD)"
+
+    # Solicitar el monto a convertir
+    Mostrar mensaje: "Ingrese el monto a convertir: "
+
+    # Realizar la conversión utilizando el tipo de cambio correspondiente
+    Si tipo_cambio == "EUR":
+        Calcular resultado = EUR_MXN * monto
+        Mostrar "El resultado de la conversión es: " resultado
+    Sino si tipo_cambio == "USD"
+        Calcular resultado = USD_MXN * monto
+        Mostrar "El resultado de la conversión es: " resultado
+    Sino 
+        Mostrar "Tipo de conversión no valido"
+    
+Fin del programa
+------------------------------------------------
