@@ -72,3 +72,28 @@ print(sumatoria)
 # NOTA GENERAL:
 # LOS PARAMETROS PREDETERMINADOS DEBEN SER ESCRITOS AL FINAL
 # DE TODOS LOS PARAMETROS, YA QUE EN CASO CONTRARIO GENERARÁ ERROR
+
+
+def papa_orgulloso(kid1, kid3, kid2):
+    print(f"Mis hijos son: {kid1}, {kid2} y {kid3}")
+    print(f"Y la más pequeña es {kid3}")
+
+
+# Aurora es la más pequeña
+
+papa_orgulloso("Alan", "Amairani", "Aurora")
+# Expected: Mis hijos son Alan, Amairani y Aurora
+# Output: Mis hijos son Alan, Aurora y Amairani
+
+# Para dar el orden correcto a la identidad de los argumentos, se hace
+# uso de las keyword arguments, las cuales indican el valor para
+# cada argumento.
+papa_orgulloso(kid1="Alan", kid2="Amairani", kid3="Aurora")
+
+
+def papa_orgulloso2(**kids):
+    print(f"Mis hijos son: {kids["a"]}, {kids["b"]} y {kids["c"]}")
+    print(f"Y la más pequeña es {kids["c"]}")
+
+
+papa_orgulloso2(a="Alan", b="Amairani", c="Aurora")
