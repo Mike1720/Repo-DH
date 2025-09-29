@@ -1,0 +1,14 @@
+Una tienda de mascotas local llamada "Patas Felices" quiere modernizar su sistema
+de gestión.
+Actualmente, llevan un registro manual de sus mascotas, clientes y ventas, lo cual
+es muy ineficiente.
+
+Patas Felices
+Modernizar el sistema de gestión de la tienda "Patas Felices" usando Programación
+Orientada a Objetos. Le ofreceremos:
+    -> Registro de mascotas
+    -> Registro de clientes
+    -> Registro de productos
+    -> Gestión de ventas
+    -> Versión interactiva para usarlo en consola
+
